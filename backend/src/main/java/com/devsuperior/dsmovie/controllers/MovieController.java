@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsmovie.dto.MovieDTO;
-import com.devsuperior.dsmovieservices.MovieService;
+import com.devsuperior.dsmovie.services.MovieService;
 
 @RestController
 @RequestMapping(value = "/movies")
