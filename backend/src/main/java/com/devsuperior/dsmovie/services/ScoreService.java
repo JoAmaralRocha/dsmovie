@@ -30,7 +30,7 @@ public class ScoreService {
 
 		User user = userRepository.findByEmail(dto.getEmail());
 		if(user == null) {
-			user = new User();
+		    user = new User();
 			user.setEmail(dto.getEmail());
 			user = userRepository.saveAndFlush(user);
 		}
